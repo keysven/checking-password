@@ -1,0 +1,47 @@
+{
+  "name": "react-password-checker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "h8k-components": "^1.0.0",
+    "h8k-design": "^1.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "pretest": "npm install",
+    "prestart": "npm install",
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "./node_modules/.bin/react-scripts test --watchAll=false --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "jest-junit": "^16.0.0",
+    "save": "^2.9.0",
+    "web-vitals": "^1.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
