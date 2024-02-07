@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="2" errors="0" time="16.14">
+  <testsuite name="React Password Strength Checker" errors="0" failures="2" skipped="0" timestamp="2024-02-06T20:32:49" time="3.803" tests="6">
+    <testcase classname="React Password Strength Checker Input field should be empty initially" name="React Password Strength Checker Input field should be empty initially" time="0.036">
+    </testcase>
+    <testcase classname="React Password Strength Checker Password checker should initally have value of Weak Password" name="React Password Strength Checker Password checker should initally have value of Weak Password" time="0.03">
+      <failure>Error: expect(element).toHaveStyle()
+
+- Expected
+
+- background: red;
+    at Object.&lt;anonymous&gt; (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\src\App.test.js:47:33)
+    at Promise.then.completed (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="React Password Strength Checker Input field should be working properly" name="React Password Strength Checker Input field should be working properly" time="0.023">
+    </testcase>
+    <testcase classname="React Password Strength Checker Show Password button should have current functionality" name="React Password Strength Checker Show Password button should have current functionality" time="0.012">
+    </testcase>
+    <testcase classname="React Password Strength Checker Clear Password button should have current functionality" name="React Password Strength Checker Clear Password button should have current functionality" time="0.007">
+    </testcase>
+    <testcase classname="React Password Strength Checker Password Checker should have correct funtionality" name="React Password Strength Checker Password Checker should have correct funtionality" time="0.012">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Weak Password
+Received:
+  Strong Password
+    at Object.&lt;anonymous&gt; (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\src\App.test.js:80:47)
+    at Promise.then.completed (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:60:9)
+    at run (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (E:\42d0231c-0ece-4142-a99c-f1644388ab6f\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
